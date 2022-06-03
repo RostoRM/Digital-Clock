@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 *,
 *::before,
 *::after {
@@ -11,8 +11,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1rem;
-  font-family: "Courgette", cursive;
-  background-image: url("Clock.png");
+  font-family: 'Courgette', cursive;
+  background-image: url('Clock.png');
 }
 .clock__name {
   margin: 0;
@@ -44,7 +44,7 @@ body {
   font-size: 1.5rem;
 }
 .clock__span {
-  font-family: "Luckiest Guy", cursive;
+  font-family: 'Luckiest Guy', cursive;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -55,7 +55,7 @@ body {
 
 .clock {
   background-color: #ebebeb;
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 3.438rem;
   text-align: center;
   height: 100%;
